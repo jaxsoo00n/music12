@@ -36,7 +36,7 @@ async def start(_, message: Message):
 ⌁ ⁞  بوت تشغيل الاغاني  في المكالمه ' الجماعيه وبحث /song +اسم الاغنيه
 ⌁ ⁞ قم برفع البوت مشرف مع صلاحيه اضافه مستخدمين عبر الرابط
 لمعرفه الأوامر اضغط /help 
-⌁ ⁞   Developed By [آلِٰـِۢمِٰـِۢﯛ‌୭سِٰـِۢڪِٰـِۢآر 𝗥𝗘𝗦𝗛𝗔 𖡨](https://t.me/R_E_S_H_A_A)!**
+⌁ ⁞   Developed By [『ＪａｘＳｏｎ』 𖡨](https://t.me/J_X_S1)!**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -45,13 +45,13 @@ async def start(_, message: Message):
                         "🔮ⓜⓤⓢⓘⓒ🔮", url="https://t.me/RehaaMusic")
                   ],[
                   InlineKeyboardButton(
-                        "آلِٰـِۢمِٰـِۢﯛ‌୭سِٰـِۢڪِٰـِۢآر 𝗥𝗘𝗦𝗛𝗔 𖡨", url="https://t.me/R_E_S_H_A_A")
+                        "『ＪａｘＳｏｎ』 𖡨", url="https://t.me/J_X_S1")
                   ],[
                     InlineKeyboardButton(
-                       "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url="https://t.me/XxvprxX"
+                       "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url="https://t.me/J_X_S3"
                     ),
                     InlineKeyboardButton(
-                        "🚨ⒷⒶⓇ🚨", url="https://t.me/mhmhfytc"
+                        "🚨ⒷⒶⓇ🚨", url="https://t.me/J_X_S9"
                     )
                 ],[
                     InlineKeyboardButton(
@@ -148,15 +148,15 @@ async def help(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🚨ⒷⒶⓇ🚨", url=f"https://t.me/mhmhfytc"
+                        "🚨ⒷⒶⓇ🚨", url=f"https://t.me/J_X_S9"
                     ),
                     InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/XxvprxX"
+                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/J_X_S3"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "آلِٰـِۢمِٰـِۢﯛ‌୭سِٰـِۢڪِٰـِۢآر 𝗥𝗘𝗦𝗛𝗔 𖡨", url=f"https://t.me/R_E_S_H_A_A"
+                        "『ＪａｘＳｏｎ』 𖡨", url=f"https://t.me/J_X_S1"
                     )
                 ]
             ]
