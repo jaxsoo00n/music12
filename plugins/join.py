@@ -24,7 +24,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@ee_rr_0"
+        user.first_name = "@J_X_S4"
 
     try:
         await USER.join_chat(invitelink)
@@ -36,7 +36,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🚨خطأ بسبب كثرة الطلبات 🚨\n{user.first_name} الحساب المساعد تعذر الانضمام إلى مجموعتك بسبب كثرة طلبات الانضمام للحساب المساعد تأكد من عدم حظر الحساب المساعد في المجموعة."
-            "\n\nأو أضف يدويًا @{ee_rr_0} إلى مجموعتك وحاول مرة أخرى.</b>",
+            "\n\nأو أضف يدويًا @{J_X_S4} إلى مجموعتك وحاول مرة أخرى.</b>",
         )
         return
     await message.reply_text(

@@ -121,7 +121,7 @@ async def m_cb(b, cb):
 
 
 # play
-@Client.on_message(command(["play", f"play@Jlk_lbot"]) & filters.group & ~filters.edited & ~filters.forwarded & ~filters.via_bot)
+@Client.on_message(command(["play", f"play@J_X_S5bot"]) & filters.group & ~filters.edited & ~filters.forwarded & ~filters.via_bot)
 async def play(_, message: Message):
     global que
     global useer
@@ -133,7 +133,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ee_rr_0"
+        user.first_name = "J_X_S4"
     usar = user
     wew = usar.id
     try:
@@ -148,7 +148,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>اعطني صلاحية دعوة المستخدمين لدعوة الحساب المساعد\nاو قم بي اضافتة يدويا @ee_rr_0</b>",
+                        "<b>اعطني صلاحية دعوة المستخدمين لدعوة الحساب المساعد\nاو قم بي اضافتة يدويا @J_X_S4</b>",
                     )
                     return
 
@@ -166,13 +166,13 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"حدث خطأ ما\n{Exception}\n\nيرجي اعادة توجية هذة الرسالة الي المطور @J_X_S1\n\nقم بي اضافه الحساب المساعد يدويا @ee_rr_0")
+                        f"حدث خطأ ما\n{Exception}\n\nيرجي اعادة توجية هذة الرسالة الي المطور @J_X_S1\n\nقم بي اضافه الحساب المساعد يدويا @J_X_S4")
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<b>هناك مشكلة لم استطيع دعوة الحساب المساعد ارسل الامر ( /userbotjoin ) حتا ينضم او قم بي اضافتة يدويا @ee_rr_0</b>"
+            f"<b>هناك مشكلة لم استطيع دعوة الحساب المساعد ارسل الامر ( /userbotjoin ) حتا ينضم او قم بي اضافتة يدويا @J_X_S4</b>"
         )
         return
 
