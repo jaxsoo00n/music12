@@ -121,7 +121,7 @@ async def m_cb(b, cb):
 
 
 # play
-@Client.on_message(command(["play", f"play@VPllllllbot"]) & filters.group & ~filters.edited & ~filters.forwarded & ~filters.via_bot)
+@Client.on_message(command(["play", f"play@Jlk_lbot"]) & filters.group & ~filters.edited & ~filters.forwarded & ~filters.via_bot)
 async def play(_, message: Message):
     global que
     global useer
@@ -133,7 +133,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "RehaaMusic"
+        user.first_name = "ee_rr_0"
     usar = user
     wew = usar.id
     try:
@@ -148,7 +148,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>اعطني صلاحية دعوة المستخدمين لدعوة الحساب المساعد\nاو قم بي اضافتة يدويا @RehaaMusic</b>",
+                        "<b>اعطني صلاحية دعوة المستخدمين لدعوة الحساب المساعد\nاو قم بي اضافتة يدويا @ee_rr_0</b>",
                     )
                     return
 
@@ -166,13 +166,13 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"حدث خطأ ما\n{Exception}\n\nيرجي اعادة توجية هذة الرسالة الي المطور @R_E_S_H_A_A\n\nقم بي اضافه الحساب المساعد يدويا @RehaaMusic")
+                        f"حدث خطأ ما\n{Exception}\n\nيرجي اعادة توجية هذة الرسالة الي المطور @J_X_S1\n\nقم بي اضافه الحساب المساعد يدويا @ee_rr_0")
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<b>هناك مشكلة لم استطيع دعوة الحساب المساعد ارسل الامر ( /userbotjoin ) حتا ينضم او قم بي اضافتة يدويا @RehaaMusic</b>"
+            f"<b>هناك مشكلة لم استطيع دعوة الحساب المساعد ارسل الامر ( /userbotjoin ) حتا ينضم او قم بي اضافتة يدويا @ee_rr_0</b>"
         )
         return
 
@@ -194,13 +194,13 @@ async def play(_, message: Message):
         thumb_name = "https://telegra.ph/file/cd0b87484429704c7b935.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
-        views = "@R_E_S_H_A_A"
+        views = "@J_X_S1"
 
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("آلِٰـِۢمِٰـِۢﯛ‌୭سِٰـِۢڪِٰـِۢآر 𝗥𝗘𝗦𝗛𝗔 𖡨", url=f"t.me/R_E_S_H_A_A"),
-                    InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/XxvprxX"),
+                    InlineKeyboardButton("『ＪａｘＳｏｎ』", url=f"t.me/J_X_S1"),
+                    InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/J_X_S3"),
                 ],
                 [InlineKeyboardButton(text="اغلاق القائمة", callback_data="cls")],
             ]
@@ -235,18 +235,18 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("آلِٰـِۢمِٰـِۢﯛ‌୭سِٰـِۢڪِٰـِۢآر 𝗥𝗘𝗦𝗛𝗔 𖡨", url=f"t.me/R_E_S_H_A_A"),
-                        InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/XxvprxX"),
+                        InlineKeyboardButton("『ＪａｘＳｏｎ』", url=f"t.me/J_X_S1"),
+                        InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/J_X_S3"),
                     ],
                     [InlineKeyboardButton(text="اغلاق القائمة", callback_data="cls")],
                 ]
             )
 
         except Exception as e:
-            title = "@R_E_S_H_A_A"
+            title = "@J_X_S1"
             thumb_name = "https://telegra.ph/file/cd0b87484429704c7b935.png"
-            duration = "@R_E_S_H_A_A"
-            views = "@R_E_S_H_A_A"
+            duration = "@J_X_S1"
+            views = "@J_X_S1"
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
@@ -291,8 +291,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("آلِٰـِۢمِٰـِۢﯛ‌୭سِٰـِۢڪِٰـِۢآر 𝗥𝗘𝗦𝗛𝗔 𖡨", url=f"t.me/R_E_S_H_A_A"),
-                    InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/XxvprxX"),
+                    InlineKeyboardButton("『ＪａｘＳｏｎ』", url=f"t.me/J_X_S1"),
+                    InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"t.me/J_X_S3"),
                 ],
                 [InlineKeyboardButton(text="اغلاق القائمة", callback_data="cls")],
             ]
